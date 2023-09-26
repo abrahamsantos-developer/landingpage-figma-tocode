@@ -1,4 +1,7 @@
 
+*, *::before, *::after {
+  box-sizing: border-box;
+} 
 
 body {
   margin: 0;
@@ -10,4 +13,78 @@ body {
   color: white;
   text-align: center;
   position: relative;
+}
+
+.left-col::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: 100%;
+  opacity: .22;
+}
+
+.content {
+  position: relative;
+}
+
+.left-col, .right-col {
+  padding: 6.75rem 8vw;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: .8em;
+}
+
+input {
+  width: 100%;
+  background: #EDEDED;
+  border: 1px solid #c7c7c7;
+  font-size: 1rem;
+  padding: .75rem;
+  outline: none;
+  margin-bottom: 2.5em;
+}
+
+button {
+  width: 100%;
+  background: #5200ff;
+  padding: 1em;
+  color: white;
+  border: none;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 770px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+  }
+  button {
+    width: auto;
+    padding: 1em 2.5em;
+    
+  }
 }
