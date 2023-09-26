@@ -1,0 +1,13 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-col {
+  background-color: #5200ff;
+  color: white;
+  text-align: center;
+  position: relative;
+}
