@@ -25,23 +25,24 @@ body {
   background-image: url(bg-ok.jpg);
   background-size: cover;
   background-position: 100%;
-  opacity: .3;
+  opacity: .35;
 }
 
 .border {
-  border: 2px solid whitesmoke;
+  border: 2.7px solid	hsla(0, 0%, 96%, .8);
   display: flex;
   flex-direction: column;
-  text-align: center;
-  gap: 20px;
-  padding: 25px;
+  text-align: start;
+  gap: .5rem;
+  padding: 1rem;
   border-radius: 4.6px;
+  letter-spacing: 2px;
 }
 
 .schedule {
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
+  align-self: center;
 }
 
 .content {
@@ -61,24 +62,13 @@ h1 {
 }
 
 p {
-  font-size: 1.3rem; /*from 1.5*/
+  font-size: 1.25rem; /*from 1.5*/
   font-weight: 500;
   margin-bottom: 0;
 }
 
-label {
-  display: block;
-  font-size: 1.125rem;
-  margin-bottom: .8em;
-}
-
-
-input[type="text"]:focus {
-  border: 3px solid grey;
-}
-
 a {
-  width: 80%;
+  width: 85%;
   color: white;
   background: #5200ff;
   border: none;
@@ -88,6 +78,15 @@ a {
   border-radius: 5px;
   border: none;
   text-decoration: none;
+}
+
+a:focus, a:hover {
+  border: 3px solid grey;
+  background-color: darkblue;
+}
+
+.wrapper {
+  margin-bottom: 3rem;
 }
 
 ul {
@@ -101,6 +100,10 @@ ul {
 .location-icon {
   font-size: 1.8rem;
 }
+
+
+/*media querys*/
+/*
 @media only screen and (min-width: 770px) {
   .form {
     display: grid;
@@ -130,3 +133,4 @@ ul {
       text-align: right;
     }
   }
+*/
