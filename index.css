@@ -21,6 +21,15 @@ body {
         0 -0.02em darkgrey;
 }
 
+img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  padding: .3rem;
+  border-radius: 50%;
+  border: 3px solid hsla(63, 80%, 84%, .7);
+  margin-bottom: 2rem;
+}
 .left-col::before {
   content: '';
   position: absolute;
@@ -68,7 +77,7 @@ h1 {
 }
 
 p {
-  font-size: 1.25rem; /*from 1.5*/
+  font-size: 1.35rem; 
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -76,9 +85,10 @@ p {
 a {
   width: 85%;
   color: white;
-  background: #5200ff;
+  /*background: #5200ff;*/
+  background: #6C9824;
   border: none;
-  font-size: 1rem;
+  font-size: 1.45rem;
   cursor: pointer;
   padding: 1rem;
   border-radius: 5px;
@@ -88,11 +98,15 @@ a {
 
 a:focus, a:hover {
   border: 3px solid grey;
-  background-color: darkblue;
+  background-color: #98CDD5;
 }
 
 .wrapper {
   margin-bottom: 3rem;
+}
+
+.footer {
+  font-size: 1.30rem;
 }
 
 ul {
