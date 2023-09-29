@@ -25,7 +25,7 @@ body {
   background-image: url(bg-ok.jpg);
   background-size: cover;
   background-position: 100%;
-  opacity: .5;
+  opacity: .3;
 }
 
 .content {
@@ -45,7 +45,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.3rem; /*from 1.5*/
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -80,6 +80,13 @@ button {
   cursor: pointer;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.icon {
+  padding: .5rem;
+}
 @media only screen and (min-width: 770px) {
   .form {
     display: grid;
