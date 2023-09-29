@@ -9,10 +9,16 @@ body {
 }
 
 .left-col {
-  background-color: #5200ff;
+  background: linear-gradient(#6C9824 0%, #F9556E 45%);
+  /*background-color: #5200ff;*/
   color: white;
   text-align: center;
   position: relative;
+  text-shadow:
+        0.02em 0 darkgrey,
+        0 0.02em darkgrey,
+        -0.02em 0 darkgrey,
+        0 -0.02em darkgrey;
 }
 
 .left-col::before {
@@ -22,8 +28,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(bg-ok.jpg);
-  background-size: cover;
+  /*background-image: url(bg-ok.jpg);
+  background-size: cover;*/
   background-position: 0%;
   opacity: .60;
 }
