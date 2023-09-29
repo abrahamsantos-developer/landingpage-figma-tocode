@@ -28,6 +28,22 @@ body {
   opacity: .3;
 }
 
+.border {
+  border: 2px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 4.6px;
+}
+
+.schedule {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 .content {
   position: relative;
 }
@@ -56,28 +72,22 @@ label {
   margin-bottom: .8em;
 }
 
-input {
-  width: 100%;
-  background: #EDEDED;
-  border: 1px solid #c7c7c7;
-  font-size: 1rem;
-  padding: .75rem;
-  outline: none;
-  margin-bottom: 2.5em;
-}
 
 input[type="text"]:focus {
   border: 3px solid grey;
 }
 
-button {
-  width: 100%;
-  background: #5200ff;
-  padding: 1em;
+a {
+  width: 80%;
   color: white;
+  background: #5200ff;
   border: none;
-  font-size: 1.125rem;
+  font-size: 1rem;
   cursor: pointer;
+  padding: 10px 19px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
 }
 
 ul {
@@ -87,12 +97,17 @@ ul {
 .icon {
   padding: .5rem;
 }
+
+.location-icon {
+  font-size: 1.8rem;
+}
 @media only screen and (min-width: 770px) {
   .form {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 2em;
   }
+  
   button {
     width: auto;
     padding: 1em 2.5em;
