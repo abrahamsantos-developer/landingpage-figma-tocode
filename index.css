@@ -24,7 +24,7 @@ body {
   height: 100%;
   background-image: url(bg-ok.jpg);
   background-size: cover;
-  background-position: 100%;
+  background-position: 0%;
   opacity: .60;
 }
 
@@ -74,7 +74,7 @@ a {
   border: none;
   font-size: 1rem;
   cursor: pointer;
-  padding: 10px 19px;
+  padding: 1rem;
   border-radius: 5px;
   border: none;
   text-decoration: none;
