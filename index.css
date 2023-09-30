@@ -80,6 +80,7 @@ p {
   font-size: 1.35rem; 
   font-weight: 500;
   margin-bottom: 0;
+  text-decoration-line: none;
 }
 
 a {
