@@ -90,8 +90,8 @@ a {
   border: none;
   font-size: 1.35rem;
   cursor: pointer;
-  padding: .85rem;
-  border-radius: 5px;
+  padding: .8rem 1rem;
+  border-radius: 4.5px;
   border: none;
   text-decoration: none;
 }
@@ -107,6 +107,7 @@ a:focus, a:hover {
 
 .footer {
   font-size: 1.30rem;
+  margin-bottom: 3.5rem;
 }
 
 ul {
