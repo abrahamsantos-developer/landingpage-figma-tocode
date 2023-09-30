@@ -126,8 +126,9 @@ a:focus, a:hover {
 
 ul {
   list-style-type: none;
-  margin-left: 5.25rem;
-  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 .icon {
