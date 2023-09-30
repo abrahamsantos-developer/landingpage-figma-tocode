@@ -139,6 +139,11 @@ ul {
   font-size: 1.8rem;
 }
 
+.highlight {
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+}
+
 
 /*media querys*/
 /*
