@@ -86,7 +86,8 @@ h1 {
 p {
   font-size: 1.35rem; 
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: .45rem;
+  margin-top: 1rem;
   text-decoration-line: none;
 }
 
@@ -111,6 +112,10 @@ a:focus, a:hover {
 
 .wrapper {
   margin-bottom: 3rem;
+}
+
+.maps-btn {
+  margin-bottom: 1rem;
 }
 
 .footer {
