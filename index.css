@@ -140,8 +140,12 @@ ul {
 }
 
 .highlight {
-  font-weight: bolder;
+  font-weight: bold;
   letter-spacing: 2px;
+  background-color:#BFE4EC;
+  color:#F9556E;
+  border-radius: 5px;
+  padding: .17rem;
 }
 
 
