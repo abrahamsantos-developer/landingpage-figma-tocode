@@ -103,6 +103,7 @@ a {
   border-radius: 4.5px;
   border: none;
   text-decoration: none;
+  text-decoration-line: none;
 }
 
 a:focus, a:hover {
@@ -125,6 +126,8 @@ a:focus, a:hover {
 
 ul {
   list-style-type: none;
+  margin-left: 5.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .icon {
